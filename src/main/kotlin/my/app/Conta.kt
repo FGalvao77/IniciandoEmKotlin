@@ -5,7 +5,7 @@ import java.util.*
 
 class Conta (
     val agencia:String,
-    val numeroConta:String,
+    val numero:String,
     val saldo:BigDecimal
 
 ) {
