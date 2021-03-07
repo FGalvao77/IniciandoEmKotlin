@@ -12,5 +12,7 @@ var occupation:String = "Student of Data Science"
 fun main() {
     println("Seja bem-vindo ao KOTLIN S2!")
     println("Espero que sua experiência seja excelente ;) \n")
-    println("\tNome: $firstName $lastName \n\tIdade: $age \n\tOcupação: $occupation")
+    println("\tNome: $firstName $lastName " +
+            "\n\tIdade: $age " +
+            "\n\tOcupação: $occupation")
 }
